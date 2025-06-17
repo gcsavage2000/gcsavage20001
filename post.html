@@ -58,7 +58,7 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <h2 class="section-heading">Map 1 - Candidate Areas for Philadelphia's New Healthy Food Store</h2>
-                        <a href="#!"><img class="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
+                        <a href="#!"><img class="img-fluid" src="AllAreasFinal.png" alt="..." /></a>
                         <p>The problem I set out to solve in Lab 6 was how to select specific areas that aren't already neatly divided into enumeration units.</p>
                         <p>Specifically, I evaluated: What kinds of problems call for geo-processing operations instead of selections? How do you get the math of a Union to work for our problem solving areas? And, why are buffers and geographic distance useful tools for selecting (or not selecting) specific areas? The skills I learned through this Lab and making this map include how to use the following tools: Buffers, Multipart to Singlepart, Dissolve, Spatial Join, Clip, Erase, Intersect, and Union. </p>
                         <p>To get my solution, I started by creating an inclusive layer of all the areas where the new store could be located. This meant buffering the regional rail stations and subway stations, using the union tool to join the resulting shapefiles together, and then using the intersect tool to intersect this layer with the empowerment zones. Then I created an exclusive layer where the store could not be located by buffering the farmers markets and corner stores, and using the union tool on the resulting layers.</p>
